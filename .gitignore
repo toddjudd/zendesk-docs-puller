@@ -1,0 +1,5 @@
+node_modules/
+zendesk-docs/
+.zendesk-sync.json
+.env
+*.log

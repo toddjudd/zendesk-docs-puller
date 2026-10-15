@@ -1,0 +1,21 @@
+{
+  "name": "zendesk-docs-puller",
+  "version": "1.0.0",
+  "description": "Pull Zendesk Help Center (Guide) articles into a flat folder of markdown for use as local agent/RAG context.",
+  "type": "module",
+  "bin": {
+    "pull-zendesk-docs": "pull-zendesk-docs.mjs"
+  },
+  "scripts": {
+    "pull": "node pull-zendesk-docs.mjs",
+    "pull:full": "node pull-zendesk-docs.mjs --full"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "turndown": "^7.2.0"
+  }
+}
